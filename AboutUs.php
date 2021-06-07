@@ -24,7 +24,8 @@ include_once('includes/navbar.php')
     <div class="space" class="row">
       <div class="row-body">
         <div id="noWrap" class="row-text">
-          <a id="linkColor" href ="index.html">Home</a>
+          <a id="linkColor" href ="<?php if($PAGE=="AboutUs"){echo './index.php';}else{
+            echo './AboutUs.php';?>">Home</a>
           <span id="sep">/</span>
           About Us
         </div>

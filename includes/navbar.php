@@ -30,8 +30,7 @@
                         <a class="nav-link <?php if($PAGE=='home'){echo 'active';} ?>" href="<?php if($PAGE=='home') {echo '#';} else {echo './index.php';} ?>">Home</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a type="button" class="btn btn-dropdown navbar-dropdown-btn" <?php if($PAGE=="AboutUs") {echo 'active';} ?> href="<?php if($PAGE=="AboutUS"){echo '#';} else{
-                            echo './AboutUs.php';} ?>">
+                        <a type="button" class="btn btn-dropdown navbar-dropdown-btn <?php if($PAGE=="AboutUs") {echo 'active';} ?>"  href="<?php if($PAGE=="AboutUS"){echo '#';} else{echo './AboutUs.php';} ?>">
                             About Us
                         </a>
                         <button type="button" class="btn dropdown-toggle dropdown-toggle-split d-lg-none" data-bs-toggle="dropdown" aria-expanded="false">
